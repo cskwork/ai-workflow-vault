@@ -1,0 +1,19 @@
+# Secrets
+.env
+*.token
+*secret*.json
+*credentials*.json
+
+# Generated media artifacts
+*.wav
+*.mp4
+*.mov
+*.m4a
+*.aac
+video/frames/
+video/*_frames/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,57 @@
+{
+  "title": "AI Tool Calling, Explained Without Jargon",
+  "goal_score": "9/10 premium educational YouTube Short",
+  "visual_style": "cinematic premium educational tech, Apple keynote clarity, Kurzgesagt-level simplicity, no cheap AI-looking UI, no text inside generated images",
+  "voice": "Supertonic 3 F1 Mina, English female, short punchy lines",
+  "scenes": [
+    {
+      "id": "01_hook",
+      "caption": "AI is smart — but trapped.",
+      "narration": "AI feels smart. But by itself, it is trapped behind a screen.",
+      "visual_prompt": "A premium cinematic 3D educational image, vertical 9:16. A glowing blue intelligence core shaped like a soft abstract brain inside a transparent glass room, floating in a dark elegant space. The core looks curious but cannot touch the outside world. Minimal, clean, high-end Apple keynote aesthetic, realistic glass reflections, soft depth of field, subtle particles, no text, no labels, no watermark.",
+      "motion": "slow push-in, subtle glass shimmer"
+    },
+    {
+      "id": "02_door",
+      "caption": "Tools are doors to apps.",
+      "narration": "Tool calling is the door. It lets AI ask a real app for help.",
+      "visual_prompt": "A premium cinematic 3D educational image, vertical 9:16. The same glowing blue AI core inside a glass room, with several elegant glowing doors appearing around it. Behind the doors are abstract app worlds: weather clouds, calendar grid, calculator shapes, database cylinders. High-end glassmorphism, clean composition, dark background, cyan and violet lighting, no text, no letters, no watermark.",
+      "motion": "pan across doors, light sweep"
+    },
+    {
+      "id": "03_examples",
+      "caption": "Weather? Calculator? Calendar?",
+      "narration": "Need weather? Ask a weather service. Need math? Ask a calculator. Need a meeting? Ask a calendar.",
+      "visual_prompt": "A premium cinematic 3D educational image, vertical 9:16. Three beautiful floating tool islands around a glowing AI core: a tiny weather globe with clouds and sun, a sleek calculator-like object with abstract symbols but no readable text, and a calendar-like object with blank grid squares. The AI core sends gentle light threads to each island. Highly polished, clean, non-technical, global audience friendly, no text, no labels, no watermark.",
+      "motion": "three beat zooms, each tool glows in sequence"
+    },
+    {
+      "id": "04_permission",
+      "caption": "Software checks permission first.",
+      "narration": "But before anything happens, your software checks the request. Is this allowed? Is it safe?",
+      "visual_prompt": "A premium cinematic 3D educational image, vertical 9:16. A transparent emerald security shield between a glowing blue AI core and a golden tool object. The shield has a simple checkmark-like glow shape but no text. The mood is safe, trusted, calm, high-end. Dark background, emerald and cyan lighting, crisp glass reflections, no readable words, no labels, no watermark.",
+      "motion": "shield scan, green approval pulse"
+    },
+    {
+      "id": "05_execution",
+      "caption": "Then the tool does the work.",
+      "narration": "Then the tool does the real work. It runs the calculation, fetches the data, or takes the action.",
+      "visual_prompt": "A premium cinematic 3D educational image, vertical 9:16. A glowing golden tool engine actively working: tiny gears, light beams, data particles, and clean abstract mechanisms. A blue AI core watches from a distance while the tool performs the action. Make it clear the tool is doing the work, not the AI core. Beautiful cinematic lighting, high contrast, no text, no labels, no watermark.",
+      "motion": "energy beam, particles travel forward"
+    },
+    {
+      "id": "06_answer",
+      "caption": "AI explains the result simply.",
+      "narration": "The result comes back. And AI turns it into a simple answer you can understand.",
+      "visual_prompt": "A premium cinematic 3D educational image, vertical 9:16. A glowing data crystal returns from a golden tool engine back into a blue AI core, which transforms the data into a warm clear light. The scene feels calm, understandable, and complete. Elegant dark background, cyan and gold color harmony, soft particles, no text, no labels, no watermark.",
+      "motion": "data crystal returns, warm glow expands"
+    },
+    {
+      "id": "07_takeaway",
+      "caption": "Brain chooses. Software guards. Tools act.",
+      "narration": "Remember this: the AI chooses. The software guards. The tool acts.",
+      "visual_prompt": "A premium cinematic 3D educational image, vertical 9:16. A clean symbolic triangle: glowing blue AI core at top, emerald security shield on one side, golden tool engine on the other, connected by elegant light paths. Hero ending shot, premium tech education, clear and memorable, dark background, cinematic glow, no text, no labels, no watermark.",
+      "motion": "hero pull-back, final glow pulse"
+    }
+  ]
+}

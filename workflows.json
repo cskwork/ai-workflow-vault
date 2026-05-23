@@ -1,0 +1,22 @@
+{
+  "workflows": [
+    {
+      "id": "youtube-shorts-ai-learning",
+      "title": "YouTube Shorts AI Learning Video",
+      "subtitle": "Research an AI concept, script it for non-devs, generate Supertonic narration, render a premium 9:16 Short, then QA before upload.",
+      "status": "v1 saved",
+      "audience": "Global non-developer English audience",
+      "qualityGate": "8.5+ visual polish, 9+ voice/content sync, under 60s",
+      "page": "workflows/youtube-shorts-ai-learning.html"
+    },
+    {
+      "id": "design-workflow-studio",
+      "title": "Design Workflow Studio",
+      "subtitle": "Placeholder for the separate Gemini/Stitch/Codex design workflow to be integrated next.",
+      "status": "planned",
+      "audience": "UI/UX and frontend production",
+      "qualityGate": "2-3 design directions, visual QA, implementation handoff",
+      "page": "workflows/design-workflow-studio.html"
+    }
+  ]
+}
