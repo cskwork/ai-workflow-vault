@@ -1,0 +1,28 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"name\":\"projects/7396326978448949878/screens/b155b6beaa2745e4a540ae39fe36e617\",\"title\":\"AI Workflow Vault - Home\",\"screenshot\":{\"name\":\"projects/7396326978448949878/files/3eae285928cb4094b71318555a7d0525\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/ADBb0uh5oEP1RzS8s3HnQG3HOMin5DoJALzKNqPLK2HMItnQdYomUeEX6PvdBzv-gx4dHJ0z7-s4mKK72F23ZPPV7gIQquTUrDpqsJOlOTbvl33bOBZ1VDfsVckitBZE88U8iOiIo7MQnUXJv4cBQJMiVjCZZzghtUXn3Dd1Ghj0Wz8-AShMeJztR-4ruHRQNQzkfODewONbLUeQnUJypGV42irzCH0a-NYqNpsIwtka3IZJbn73tWUHo3fw-yU\"},\"htmlCode\":{\"name\":\"projects/7396326978448949878/files/854eceab9bab4dc9959e27e63edc482c\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2VkY2M5YTA1ZmI2NDQ1ZGM5ODZiMzdjZGM0NDI5OTI0EgsSBxDOmIbIrRgYAZIBIwoKcHJvamVjdF9pZBIVQhM3Mzk2MzI2OTc4NDQ4OTQ5ODc4&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3370\",\"deviceType\":\"DESKTOP\"}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "deviceType": "DESKTOP",
+    "height": "3370",
+    "htmlCode": {
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2VkY2M5YTA1ZmI2NDQ1ZGM5ODZiMzdjZGM0NDI5OTI0EgsSBxDOmIbIrRgYAZIBIwoKcHJvamVjdF9pZBIVQhM3Mzk2MzI2OTc4NDQ4OTQ5ODc4&filename=&opi=96797242",
+      "mimeType": "text/html",
+      "name": "projects/7396326978448949878/files/854eceab9bab4dc9959e27e63edc482c"
+    },
+    "name": "projects/7396326978448949878/screens/b155b6beaa2745e4a540ae39fe36e617",
+    "screenshot": {
+      "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uh5oEP1RzS8s3HnQG3HOMin5DoJALzKNqPLK2HMItnQdYomUeEX6PvdBzv-gx4dHJ0z7-s4mKK72F23ZPPV7gIQquTUrDpqsJOlOTbvl33bOBZ1VDfsVckitBZE88U8iOiIo7MQnUXJv4cBQJMiVjCZZzghtUXn3Dd1Ghj0Wz8-AShMeJztR-4ruHRQNQzkfODewONbLUeQnUJypGV42irzCH0a-NYqNpsIwtka3IZJbn73tWUHo3fw-yU",
+      "name": "projects/7396326978448949878/files/3eae285928cb4094b71318555a7d0525"
+    },
+    "title": "AI Workflow Vault - Home",
+    "width": "2560"
+  },
+  "isError": false
+}

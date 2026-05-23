@@ -1,0 +1,34 @@
+Create a high-fidelity desktop GitHub Pages homepage design for “AI Workflow Vault”.
+
+Concept to preserve:
+A public workflow vault that stores reusable AI production systems. The first major workflow is “YouTube Shorts AI Learning Video”: research an AI concept, verify accuracy, turn it into a clear non-developer script, generate local Supertonic English female narration, render a premium vertical short, QA, then upload to YouTube.
+
+Target audience:
+Global creators, AI-curious professionals, non-developer founders, and developers who want practical tool workflows.
+
+Screen:
+GitHub Pages public homepage plus visual hints of the workflow detail page. It must feel like a premium AI production studio and workflow library, not a plain repository index.
+
+Must include:
+- Top navigation: AI Workflow Vault, Workflows, Production Loop, Quality Gates, GitHub.
+- Hero: “Reusable AI production workflows, designed like a studio system.”
+- Supporting copy: “Research, script, generate voice, render, QA, and publish — preserved as repeatable workflows.”
+- Primary CTA: “Open YouTube Shorts workflow”. Secondary CTA: “View workflow source”.
+- A featured workflow card for “YouTube Shorts AI Learning Video” with stages: Research, Script, Voice, Render, QA, Upload.
+- A second card for “Design Workflow Studio” marked planned.
+- A horizontal production pipeline with the six stages above.
+- Quality gates section: Accuracy, Non-dev clarity, Voice sync, Visual polish, No pseudo-text.
+- A compact “Stitch design source” provenance callout that says this UI direction was generated through Stitch MCP and then converted to static GitHub Pages HTML/CSS.
+- Footer with repo link and workflow vault positioning.
+
+Style direction:
+- Cinematic dark studio, premium but readable.
+- Avoid generic glassmorphism slop; use deliberate surfaces, strong spacing, crisp borders, and one vivid accent system.
+- Original design, not a clone of any specific site.
+- Typography: bold editorial headline, precise readable body, subtle monospace labels for pipeline/tooling metadata.
+- Palette: near-black background, off-white text, muted steel, electric cyan/blue accent, small amber proof/QA accent.
+- Accessible contrast and large tap targets.
+- Responsive design should translate cleanly to mobile.
+
+Output requirements:
+Design as if it will be implemented in plain static HTML/CSS for GitHub Pages. Avoid framework-specific components. Do not use fake metrics or fake testimonials. Use realistic product copy only.

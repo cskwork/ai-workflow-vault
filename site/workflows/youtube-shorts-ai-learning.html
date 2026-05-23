@@ -8,45 +8,59 @@
   <link rel="stylesheet" href="../assets/styles.css" />
 </head>
 <body>
-  <main class="shell">
-    <a class="back" href="../index.html">← Back to vault</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html"><span class="brand-mark">AI</span><span>AI Workflow Vault</span></a>
+      <div class="nav-links"><a href="../index.html#workflows">Workflows</a><a href="#loop">Production Loop</a><a href="#qa">Quality Gates</a><a href="https://github.com/cskwork/ai-workflow-vault">GitHub</a></div>
+      <a class="nav-cta" href="https://github.com/cskwork/ai-workflow-vault/tree/main/workflows/youtube-shorts-ai-learning">SOURCE</a>
+    </nav>
+  </header>
+  <main id="main" class="shell">
+    <a class="breadcrumb" href="../index.html">← Back to vault</a>
     <section class="hero compact">
-      <p class="eyebrow">Workflow / Video Generation</p>
+      <p class="eyebrow">Workflow / Video generation</p>
       <h1>YouTube Shorts AI Learning Video</h1>
-      <p class="lead">Turn any AI concept into a researched, verified, easy-to-understand Short for a broad global audience.</p>
+      <p class="lead">Turn any AI concept into a researched, verified, easy-to-understand Short for a broad global audience — with local Supertonic narration and a hard QA gate.</p>
+      <div class="hero-actions"><a class="button primary" href="https://github.com/cskwork/ai-workflow-vault/tree/main/workflows/youtube-shorts-ai-learning">Open workflow source</a><a class="button secondary" href="#qa">Review quality gate</a></div>
     </section>
 
-    <section class="panel">
-      <h2>Production loop</h2>
-      <ol>
-        <li>Research official sources and write a fact-checked digest.</li>
-        <li>Storyboard 6-8 shots before generating visuals.</li>
-        <li>Generate cinematic key visuals with no embedded text.</li>
-        <li>Generate one Supertonic narration file per scene.</li>
-        <li>Render image-based motion with large burned-in captions.</li>
-        <li>Inspect preview contact sheets and fix clipping or pseudo-text.</li>
-        <li>Upload only after quality gate and approval.</li>
-      </ol>
+    <section id="loop" class="section split">
+      <article class="panel">
+        <p class="section-kicker">Production loop</p>
+        <h2>Scene-first, evidence-first video creation.</h2>
+        <ol class="steps">
+          <li>Research official sources and write a fact-checked digest.</li>
+          <li>Storyboard 6–8 shots before generating visuals.</li>
+          <li>Generate cinematic key visuals with no embedded text.</li>
+          <li>Generate one Supertonic narration file per scene.</li>
+          <li>Render image-based motion with large burned-in captions.</li>
+          <li>Inspect preview contact sheets and fix clipping or pseudo-text.</li>
+          <li>Upload only after quality gate and approval.</li>
+        </ol>
+      </article>
+      <aside class="studio-panel">
+        <div class="panel-top"><span class="mono">short.render.profile</span><span class="dots"><span></span><span></span><span></span></span></div>
+        <div class="console-line"><b>format</b><span>1080 × 1920 vertical, under 60 seconds</span></div>
+        <div class="console-line"><b>codec</b><span>h264 + aac, 30fps</span></div>
+        <div class="console-line"><b>voice</b><span>Supertonic local English female narration</span></div>
+        <div class="console-line"><b>sample</b><span>AI Tool Calling sample v3, 39.99s runtime</span></div>
+      </aside>
     </section>
 
-    <section class="panel split">
-      <div>
-        <h2>Quality gate</h2>
-        <ul>
-          <li>1080x1920 vertical, under 60 seconds</li>
-          <li>h264 + aac, 30fps</li>
-          <li>Visual polish 8.5+</li>
-          <li>Voice/content sync 9+</li>
-          <li>Non-dev clarity 9+</li>
-          <li>No cheap AI look, watermark, or pseudo-text</li>
-        </ul>
-      </div>
-      <div>
-        <h2>Saved sample</h2>
-        <p>AI Tool Calling sample v3: cinematic key visuals, Supertonic F1 Mina voice, 39.99s runtime.</p>
-        <p>See repo files under <code>workflows/youtube-shorts-ai-learning/examples/ai-tool-calling/</code>.</p>
+    <section id="qa" class="section">
+      <div class="section-head"><div><p class="section-kicker">Quality gate</p><h2>Publish only when the short is clear, synced, and polished.</h2></div></div>
+      <div class="gates">
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>Visual polish 8.5+</h3><p>No cheap AI look or watermark.</p></div></article>
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>Voice sync 9+</h3><p>Scene timing follows narration.</p></div></article>
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>Clarity 9+</h3><p>Non-dev audience understands the concept.</p></div></article>
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>No pseudo-text</h3><p>All readable text is renderer-owned.</p></div></article>
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>Approval</h3><p>Human review before upload.</p></div></article>
       </div>
     </section>
+
+    <section class="section"><div class="provenance">Saved sample path: <code>workflows/youtube-shorts-ai-learning/examples/ai-tool-calling/</code>. The public UI follows the Stitch MCP visual direction from the homepage redesign.</div></section>
+    <footer class="footer"><div><strong>AI Workflow Vault</strong><br />Workflow detail for repeatable AI Shorts production.</div><div><a href="../index.html">Home</a><a href="https://github.com/cskwork/ai-workflow-vault">Repository</a></div></footer>
   </main>
 </body>
 </html>

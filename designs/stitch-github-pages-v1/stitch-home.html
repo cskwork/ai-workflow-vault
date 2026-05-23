@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Workflow Vault</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#3a393a",
+                        "secondary-fixed": "#e4e1e5",
+                        "primary-fixed-dim": "#4cd7f6",
+                        "on-error": "#690005",
+                        "on-tertiary-container": "#563400",
+                        "surface-container": "#201f20",
+                        "on-background": "#e5e2e3",
+                        "surface": "#131314",
+                        "surface-container-highest": "#353436",
+                        "on-surface": "#e5e2e3",
+                        "surface-container-low": "#1c1b1c",
+                        "error-container": "#93000a",
+                        "surface-tint": "#4cd7f6",
+                        "secondary-container": "#47464a",
+                        "primary-fixed": "#acedff",
+                        "on-primary": "#003640",
+                        "secondary-fixed-dim": "#c8c6c9",
+                        "on-secondary-fixed": "#1b1b1e",
+                        "inverse-on-surface": "#313031",
+                        "outline": "#869397",
+                        "on-tertiary-fixed-variant": "#653e00",
+                        "surface-container-lowest": "#0e0e0f",
+                        "background": "#131314",
+                        "on-tertiary-fixed": "#2a1700",
+                        "surface-container-high": "#2a2a2b",
+                        "on-tertiary": "#472a00",
+                        "on-secondary-fixed-variant": "#47464a",
+                        "tertiary-fixed-dim": "#ffb95f",
+                        "surface-variant": "#353436",
+                        "on-primary-container": "#00424f",
+                        "surface-dim": "#131314",
+                        "error": "#ffb4ab",
+                        "tertiary-container": "#e79400",
+                        "on-primary-fixed-variant": "#004e5c",
+                        "tertiary-fixed": "#ffddb8",
+                        "on-secondary-container": "#b6b4b8",
+                        "on-surface-variant": "#bcc9cd",
+                        "secondary": "#c8c6c9",
+                        "primary": "#4cd7f6",
+                        "inverse-surface": "#e5e2e3",
+                        "on-error-container": "#ffdad6",
+                        "outline-variant": "#3d494c",
+                        "tertiary": "#ffb95f",
+                        "on-secondary": "#303033",
+                        "on-primary-fixed": "#001f26",
+                        "inverse-primary": "#00687a",
+                        "primary-container": "#06b6d4"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "container-padding-mobile": "20px",
+                        "unit": "8px",
+                        "container-padding-desktop": "40px",
+                        "workflow-gap": "48px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Geist"],
+                        "label-mono": ["JetBrains Mono"],
+                        "headline-xl": ["Geist"],
+                        "body-sm": ["Geist"],
+                        "headline-lg": ["Geist"],
+                        "label-caps": ["Geist"],
+                        "headline-lg-mobile": ["Geist"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-mono": ["12px", { "lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "500" }],
+                        "headline-xl": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-sm": ["14px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-caps": ["11px", { "lineHeight": "1.2", "letterSpacing": "0.1em", "fontWeight": "700" }],
+                        "headline-lg-mobile": ["24px", { "lineHeight": "1.2", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-surface-container-lowest text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-container-desktop py-4 bg-surface/80 backdrop-blur-md border-b border-outline-variant flat no shadows font-body-md text-body-md font-normal text-on-surface-variant">
+<div class="flex items-center gap-gutter">
+<span class="font-headline-lg text-headline-lg font-bold tracking-tight text-on-surface">AI Workflow Vault</span>
+<div class="hidden md:flex items-center gap-6 ml-8">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 scale-95 active:scale-90 transition-transform" href="#">Workflows</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-all duration-200 scale-95 active:scale-90 transition-transform" href="#">Production Loop</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-all duration-200 scale-95 active:scale-90 transition-transform" href="#">Quality Gates</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:flex items-center gap-2 px-4 py-2 rounded bg-surface-container hover:bg-surface-container-highest transition-colors text-on-surface border border-outline-variant scale-95 active:scale-90 transition-transform">
+<span class="font-label-caps text-label-caps">GitHub</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-all duration-200 scale-95 active:scale-90 transition-transform">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-all duration-200 scale-95 active:scale-90 transition-transform">
+<span class="material-symbols-outlined">account_circle</span>
+</button>
+</div>
+</nav>
+<main class="flex-grow pt-32 pb-24 px-container-desktop flex flex-col gap-24 max-w-7xl mx-auto w-full">
+<!-- Hero Section -->
+<section class="flex flex-col items-start max-w-4xl gap-6">
+<h1 class="font-headline-xl text-headline-xl text-on-surface">Reusable AI production workflows, designed like a studio system.</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">Research, script, generate voice, render, QA, and publish — preserved as repeatable workflows.</p>
+<div class="flex items-center gap-4 mt-4">
+<button class="px-6 py-3 bg-primary text-on-primary font-body-md text-body-md font-bold rounded hover:bg-primary-fixed transition-colors">Open YouTube Shorts workflow</button>
+<button class="px-6 py-3 bg-transparent border border-outline-variant text-on-surface font-body-md text-body-md rounded hover:border-primary transition-colors">View workflow source</button>
+</div>
+</section>
+<!-- Horizontal Production Pipeline -->
+<section class="relative py-12 flex flex-col gap-8">
+<h2 class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">Global Production Pipeline</h2>
+<div class="relative w-full flex items-center justify-between">
+<!-- Connecting Line -->
+<div class="absolute left-0 top-1/2 -translate-y-1/2 w-full h-[1px] bg-outline-variant z-0"></div>
+<!-- Nodes -->
+<div class="relative z-10 flex flex-col items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-primary ring-4 ring-surface-container-lowest"></div>
+<span class="font-label-mono text-label-mono text-secondary">Research</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-primary ring-4 ring-surface-container-lowest"></div>
+<span class="font-label-mono text-label-mono text-secondary">Script</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-primary ring-4 ring-surface-container-lowest"></div>
+<span class="font-label-mono text-label-mono text-secondary">Voice</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-primary ring-4 ring-surface-container-lowest"></div>
+<span class="font-label-mono text-label-mono text-secondary">Render</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-3">
+<div class="w-3 h-3 rounded-full bg-tertiary-container ring-4 ring-surface-container-lowest"></div>
+<span class="font-label-mono text-label-mono text-tertiary">QA</span>
+</div>
+<div class="relative z-10 flex flex-col items-center gap-3">
+<div class="w-3 h-3 rounded-full border border-outline bg-surface-container-lowest ring-4 ring-surface-container-lowest"></div>
+<span class="font-label-mono text-label-mono text-outline">Upload</span>
+</div>
+</div>
+</section>
+<!-- Workflow Cards Grid -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Featured Workflow Card -->
+<div class="bg-surface border border-outline-variant rounded p-8 flex flex-col gap-6 hover:border-primary transition-colors group">
+<div class="flex justify-between items-start">
+<span class="font-label-caps text-label-caps text-primary uppercase bg-primary/10 px-2 py-1 rounded">Featured</span>
+<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors">arrow_forward</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-lg text-headline-lg text-on-surface">YouTube Shorts AI Learning Video</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Automated production for educational AI shorts.</p>
+</div>
+<div class="flex flex-wrap gap-2 mt-auto pt-4 border-t border-outline-variant border-dashed">
+<span class="font-label-mono text-label-mono text-secondary px-2 py-1 border border-outline-variant rounded">Research</span>
+<span class="font-label-mono text-label-mono text-secondary px-2 py-1 border border-outline-variant rounded">Script</span>
+<span class="font-label-mono text-label-mono text-secondary px-2 py-1 border border-outline-variant rounded">Voice</span>
+<span class="font-label-mono text-label-mono text-secondary px-2 py-1 border border-outline-variant rounded">Render</span>
+<span class="font-label-mono text-label-mono text-secondary px-2 py-1 border border-outline-variant rounded">QA</span>
+<span class="font-label-mono text-label-mono text-secondary px-2 py-1 border border-outline-variant rounded">Upload</span>
+</div>
+</div>
+<!-- Planned Workflow Card -->
+<div class="bg-surface/50 border border-outline-variant border-dashed rounded p-8 flex flex-col gap-6 opacity-70">
+<div class="flex justify-between items-start">
+<span class="font-label-caps text-label-caps text-outline uppercase px-2 py-1 border border-outline-variant rounded bg-surface-container">Planned</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="font-headline-lg text-headline-lg text-on-surface">Design Workflow Studio</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Visual pipeline for UI component generation.</p>
+</div>
+</div>
+</section>
+<!-- Quality Gates Section -->
+<section class="flex flex-col gap-8">
+<h2 class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest border-b border-outline-variant pb-2">Quality Gates</h2>
+<div class="grid grid-cols-2 md:grid-cols-5 gap-unit">
+<div class="bg-surface border border-outline-variant rounded p-4 flex flex-col items-center text-center gap-3">
+<span class="material-symbols-outlined text-tertiary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface">Accuracy</span>
+</div>
+<div class="bg-surface border border-outline-variant rounded p-4 flex flex-col items-center text-center gap-3">
+<span class="material-symbols-outlined text-tertiary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface">Non-dev clarity</span>
+</div>
+<div class="bg-surface border border-outline-variant rounded p-4 flex flex-col items-center text-center gap-3">
+<span class="material-symbols-outlined text-tertiary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface">Voice sync</span>
+</div>
+<div class="bg-surface border border-outline-variant rounded p-4 flex flex-col items-center text-center gap-3">
+<span class="material-symbols-outlined text-tertiary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface">Visual polish</span>
+</div>
+<div class="bg-surface border border-outline-variant rounded p-4 flex flex-col items-center text-center gap-3">
+<span class="material-symbols-outlined text-tertiary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface">No pseudo-text</span>
+</div>
+</div>
+</section>
+<!-- Provenance Callout -->
+<section class="mt-8">
+<div class="bg-surface-container p-4 border-l-2 border-primary font-label-mono text-label-mono text-on-surface-variant flex items-start gap-4 max-w-fit">
+<span class="material-symbols-outlined text-primary text-sm">info</span>
+<p>This UI direction was generated through Stitch MCP and then converted to static GitHub Pages HTML/CSS.</p>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full px-container-desktop py-12 flex flex-col md:flex-row justify-between items-start gap-gutter bg-surface-container-lowest border-t border-outline-variant flat no shadows font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex flex-col gap-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant">AI Workflow Vault</span>
+<p>© 2024 AI Workflow Vault. Reusable AI production workflows, designed like a studio system.</p>
+</div>
+<div class="flex gap-6">
+<a class="text-on-surface-variant hover:text-on-surface hover:text-primary transition-colors opacity-80 hover:opacity-100 transition-opacity" href="#">Repository</a>
+<a class="text-on-surface-variant hover:text-on-surface hover:text-primary transition-colors opacity-80 hover:opacity-100 transition-opacity" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-on-surface hover:text-primary transition-colors opacity-80 hover:opacity-100 transition-opacity" href="#">Terms of Service</a>
+<a class="text-on-surface-variant hover:text-on-surface hover:text-primary transition-colors opacity-80 hover:opacity-100 transition-opacity" href="#">Security</a>
+</div>
+</footer>
+</body></html>

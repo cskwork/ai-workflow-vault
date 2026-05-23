@@ -4,32 +4,112 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AI Workflow Vault</title>
-  <meta name="description" content="Integrated private vault for reusable AI production workflows." />
+  <meta name="description" content="Reusable AI production workflows, designed like a studio system." />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
-  <main class="shell">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">AI</span><span>AI Workflow Vault</span></a>
+      <div class="nav-links">
+        <a href="#workflows">Workflows</a>
+        <a href="#production-loop">Production Loop</a>
+        <a href="#quality-gates">Quality Gates</a>
+        <a href="https://github.com/cskwork/ai-workflow-vault">GitHub</a>
+      </div>
+      <a class="nav-cta" href="https://github.com/cskwork/ai-workflow-vault">SOURCE</a>
+    </nav>
+  </header>
+
+  <main id="main" class="shell">
     <section class="hero">
-      <p class="eyebrow">Private Workflow System</p>
-      <h1>AI Workflow Vault</h1>
-      <p class="lead">Reusable production workflows for AI videos, design systems, and future agent-made assets — with one landing page per workflow.</p>
+      <div>
+        <p class="eyebrow">Stitch MCP Design / Public Workflow System</p>
+        <h1>Reusable AI production workflows, designed like a studio system.</h1>
+        <p class="lead">Research, script, generate voice, render, QA, and publish — preserved as repeatable workflows for creators and AI teams.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="workflows/youtube-shorts-ai-learning.html">Open YouTube Shorts workflow →</a>
+          <a class="button secondary" href="https://github.com/cskwork/ai-workflow-vault/tree/main/workflows/youtube-shorts-ai-learning">View workflow source</a>
+        </div>
+      </div>
+      <aside class="studio-panel" aria-label="Workflow console preview">
+        <div class="panel-top"><span class="mono">studio.system</span><span class="dots"><span></span><span></span><span></span></span></div>
+        <div class="console-line"><b>input</b><span>AI concept from user</span></div>
+        <div class="console-line"><b>verify</b><span>Official docs, grounded research, script digest</span></div>
+        <div class="console-line"><b>voice</b><span>Local Supertonic English female narration</span></div>
+        <div class="console-line"><b>render</b><span>Premium vertical short with QA contact sheet</span></div>
+      </aside>
     </section>
 
-    <section class="grid">
-      <a class="card primary" href="workflows/youtube-shorts-ai-learning.html">
-        <span class="status">v1 saved</span>
-        <h2>YouTube Shorts AI Learning Video</h2>
-        <p>Research an AI concept, script it for non-devs, generate local Supertonic narration, render a premium vertical Short, then QA before upload.</p>
-        <strong>Open workflow →</strong>
-      </a>
-
-      <a class="card" href="workflows/design-workflow-studio.html">
-        <span class="status planned">planned</span>
-        <h2>Design Workflow Studio</h2>
-        <p>Reserved for the separate Gemini/Stitch/Codex UI/UX workflow so all production systems live in one integrated vault.</p>
-        <strong>Open placeholder →</strong>
-      </a>
+    <section id="production-loop" class="section" aria-labelledby="pipeline-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Global production pipeline</p>
+          <h2 id="pipeline-title">From concept to publishable short.</h2>
+        </div>
+      </div>
+      <div class="pipeline">
+        <article class="stage"><span class="node"></span><span class="stage-index">01</span><h3>Research</h3><p>Collect official sources and verify the core idea.</p></article>
+        <article class="stage"><span class="node"></span><span class="stage-index">02</span><h3>Script</h3><p>Make it simple enough for a broad non-dev audience.</p></article>
+        <article class="stage"><span class="node"></span><span class="stage-index">03</span><h3>Voice</h3><p>Generate local Supertonic narration, scene by scene.</p></article>
+        <article class="stage"><span class="node"></span><span class="stage-index">04</span><h3>Render</h3><p>Build vertical motion with readable burned-in captions.</p></article>
+        <article class="stage review"><span class="node"></span><span class="stage-index">05</span><h3>QA</h3><p>Catch pseudo-text, sync errors, weak visuals, and clipping.</p></article>
+        <article class="stage future"><span class="node"></span><span class="stage-index">06</span><h3>Upload</h3><p>Publish only after quality gate and approval.</p></article>
+      </div>
     </section>
+
+    <section id="workflows" class="section" aria-labelledby="workflows-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Workflow library</p>
+          <h2 id="workflows-title">Production systems, not prompt scraps.</h2>
+        </div>
+      </div>
+      <div class="cards">
+        <a class="card featured" href="workflows/youtube-shorts-ai-learning.html">
+          <div>
+            <div class="card-row"><span class="status">Featured</span><span class="mono muted">open →</span></div>
+            <h2>YouTube Shorts AI Learning Video</h2>
+            <p>Research an AI concept, script it for non-devs, generate local Supertonic narration, render a premium vertical Short, then QA before upload.</p>
+          </div>
+          <div class="tags">
+            <span class="chip">Research</span><span class="chip">Script</span><span class="chip">Voice</span><span class="chip">Render</span><span class="chip">QA</span><span class="chip">Upload</span>
+          </div>
+        </a>
+        <a class="card planned" href="workflows/design-workflow-studio.html">
+          <div class="card-row"><span class="status planned">Planned</span></div>
+          <h2>Design Workflow Studio</h2>
+          <p>Gemini, Stitch, Codex, and implementation workflows for high-quality UI/UX experiments and production-ready static sites.</p>
+          <strong>Open design workflow placeholder →</strong>
+        </a>
+      </div>
+    </section>
+
+    <section id="quality-gates" class="section" aria-labelledby="gates-title">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Quality gates</p>
+          <h2 id="gates-title">Every output must pass human-readable checks.</h2>
+        </div>
+      </div>
+      <div class="gates">
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>Accuracy</h3><p>Claims come from verified sources.</p></div></article>
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>Non-dev clarity</h3><p>Explains the idea without jargon debt.</p></div></article>
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>Voice sync</h3><p>Narration and scene timing are aligned.</p></div></article>
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>Visual polish</h3><p>No cheap AI look, clipping, or filler visuals.</p></div></article>
+        <article class="gate"><span class="gate-mark">✓</span><div><h3>No pseudo-text</h3><p>Readable text is rendered by code, not images.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="provenance">Stitch design source: project <code>7396326978448949878</code>, screen <code>b155b6beaa2745e4a540ae39fe36e617</code>. This UI direction was generated through Stitch MCP and then converted to static GitHub Pages HTML/CSS.</div>
+    </section>
+
+    <footer class="footer">
+      <div><strong>AI Workflow Vault</strong><br />Reusable AI production workflows, designed like a studio system.</div>
+      <div><a href="https://github.com/cskwork/ai-workflow-vault">Repository</a><a href="workflows/youtube-shorts-ai-learning.html">YouTube workflow</a></div>
+    </footer>
   </main>
 </body>
 </html>

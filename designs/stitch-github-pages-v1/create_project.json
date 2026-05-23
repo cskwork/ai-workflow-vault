@@ -1,0 +1,19 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"name\":\"projects/7396326978448949878\",\"title\":\"AI Workflow Vault — GitHub Pages Stitch Redesign\",\"visibility\":\"PRIVATE\",\"projectType\":\"PROJECT_DESIGN\",\"origin\":\"STITCH\"}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "name": "projects/7396326978448949878",
+    "origin": "STITCH",
+    "projectType": "PROJECT_DESIGN",
+    "title": "AI Workflow Vault — GitHub Pages Stitch Redesign",
+    "visibility": "PRIVATE"
+  },
+  "isError": false
+}

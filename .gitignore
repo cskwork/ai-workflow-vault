@@ -17,3 +17,5 @@ video/*_frames/
 .DS_Store
 .vscode/
 .idea/
+# Local agent state
+.antigravitycli/
