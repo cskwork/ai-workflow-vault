@@ -98,7 +98,7 @@ def svg_for_scene(img: Path, caption: str, idx: int, total: int) -> str:
 
 
 def main() -> None:
-    ep = Path("/Users/danny/ai-shorts-workflow/episodes/tool-calling-101")
+    ep = (Path.home() / 'ai-shorts-workflow/episodes/tool-calling-101')
     scenes = json.loads((ep / "script/v3_scenes.json").read_text(encoding="utf-8"))["scenes"]
     kdir = ep / "video/v3_keyframes"
     out_dir = ep / "video/v3_render"

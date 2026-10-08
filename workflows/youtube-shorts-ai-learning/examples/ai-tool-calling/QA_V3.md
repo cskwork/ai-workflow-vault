@@ -2,8 +2,8 @@
 
 ## Output
 
-- Local video: `/Users/danny/ai-shorts-workflow/episodes/tool-calling-101/video/final_v3.mp4`
-- Preview contact sheet: `/Users/danny/ai-shorts-workflow/episodes/tool-calling-101/video/v3_previews_fixed/contact_sheet.png`
+- Local video: `/Users/<user>/ai-shorts-workflow/episodes/tool-calling-101/video/final_v3.mp4`
+- Preview contact sheet: `/Users/<user>/ai-shorts-workflow/episodes/tool-calling-101/video/v3_previews_fixed/contact_sheet.png`
 - Drive folder: https://drive.google.com/drive/folders/1xmCaKlQUE20Tb8AggZwdwpe_mi1_GFLA
 - Drive video: https://drive.google.com/file/d/1AkafIU0Go-_04ydTj81fqJ68lw4qYhHN/view?usp=drivesdk
 

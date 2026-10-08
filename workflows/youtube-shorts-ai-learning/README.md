@@ -21,7 +21,7 @@ This workflow was extracted from the `AI Tool Calling` sample that improved a re
 # workflows/youtube-shorts-ai-learning/templates/v3_scenes.example.json
 
 # 2. generate one TTS file per scene with local Supertonic
-cd /Users/danny/ai-shorts-workflow/supertonic-tts
+cd ~/ai-shorts-workflow/supertonic-tts
 node bin/supertonic.mjs -f scene_01.txt -o scene_01.wav --lang en --voice F1 --speed 1.10 --steps 10 --silence 0.18 --no-play
 
 # 3. render with image-based v3 renderer

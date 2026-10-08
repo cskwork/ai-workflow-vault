@@ -51,7 +51,7 @@ Goal: turn any AI concept into a globally understandable YouTube Short: research
 6. Generate narration locally
    - Use the cloned CLI:
      ```bash
-     cd /Users/danny/ai-shorts-workflow/supertonic-tts
+     cd ~/ai-shorts-workflow/supertonic-tts
      node bin/supertonic.mjs -f ../episodes/<slug>/script/narration.txt \
        -o ../episodes/<slug>/audio/narration.wav \
        --lang en --voice F1 --speed 1.08 --steps 8 --no-play
